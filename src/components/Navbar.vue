@@ -55,9 +55,6 @@ export default {};
 
   ul {
     list-style: none;
-    li {
-      display: inline;
-    }
   }
   .left-nav,
   .right-nav {
@@ -69,9 +66,14 @@ export default {};
   }
   a {
     color: white;
+    height: auto;
     padding: 0 0.5rem;
     &:hover {
       color: #eee;
+    }
+
+    &.router-link-exact-active {
+      color: red;
     }
   }
 }
