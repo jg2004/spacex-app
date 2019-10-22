@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #221f1f;
+  overflow: auto;
+}
+
+noscript {
+  overflow: hidden;
+}
+
+.container {
+  padding: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.text-align-center {
+  text-align: center;
+}
+.text-white {
+  color: white;
+}
+
+.text-red {
+  color: red;
+}
+.text-green {
+  color: green;
+}
+
+.btn {
+  border: 1px solid black;
+  padding: 0.5rem 1.3rem;
+  margin: 0.5rem 1rem;
+  background: #337ab7;
+  color: white;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #114ab7;
+}
+.links {
+  margin: 1.3rem 0;
+  display: flex;
+  justify-content: center;
+}
