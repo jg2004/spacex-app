@@ -1,7 +1,10 @@
 <template>
   <div id="app">
     <app-nav></app-nav>
-    <router-view></router-view>
+    <main>
+      <router-view></router-view>
+    </main>
+
     <app-footer></app-footer>
   </div>
 </template>
@@ -21,6 +24,13 @@ export default {
 
 <style lang="scss">
 #app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  main {
+    flex: 1;
+  }
 }
 
 @media (max-width: 400px) {

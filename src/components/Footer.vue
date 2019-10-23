@@ -24,6 +24,7 @@ footer {
   padding: 0rem 2rem;
   background: #030303;
   color: #aaa;
+  height: 15vh;
   img {
     height: 85px;
     width: auto;
